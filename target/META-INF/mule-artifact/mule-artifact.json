@@ -1,0 +1,53 @@
+{
+  "configs": [
+    "implementation/travelOnTip-getRoutes-implementation.xml",
+    "global/globalErrorHandler.xml",
+    "global/retrievetravelontiproutesandschedule-sapi.xml",
+    "global/globalElement.xml",
+    "implementation/travelOnTip-getSchedules-implementation.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:retrieveconsolidatedroutesandschedule-travelontip-sapi:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "api/libraries/common/common-business-library.raml",
+        "api/libraries/common/dataTypes/common-error-dataType.raml",
+        "api/libraries/common/examples/400Response-example.json",
+        "api/libraries/common/examples/404Response-example.json",
+        "api/libraries/common/examples/500Response-example.json",
+        "api/libraries/common/traits/headers-transactionId-traits.raml",
+        "api/libraries/common/traits/queryParams-departureLocationCode-traits.raml",
+        "api/libraries/common/traits/queryParams-destinationlocationCode-traits.raml",
+        "api/libraries/routes/dataTypes/getRoutes-200Response-dataType.raml",
+        "api/libraries/routes/examples/getRoutes-200Response-example.json",
+        "api/libraries/routes/routesBusiness-library.raml",
+        "api/libraries/schedules/dataTypes/getSchedule-200Response.raml",
+        "api/libraries/schedules/examples/getSchedules-200Response-example.json",
+        "api/libraries/schedules/schedulesBusiness-library.raml",
+        "api/retrievetravelontiproutesandschedule-sapi.raml",
+        "config/dev.yaml",
+        "config/local.yaml",
+        "config/ppe.yaml",
+        "config/prd.yaml",
+        "config/sit.yaml",
+        "config/uat.yaml",
+        "global/globalElement.xml",
+        "global/globalErrorHandler.xml",
+        "global/retrievetravelontiproutesandschedule-sapi.xml",
+        "implementation/travelOnTip-getRoutes-implementation.xml",
+        "implementation/travelOnTip-getSchedules-implementation.xml",
+        "log4j2.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
